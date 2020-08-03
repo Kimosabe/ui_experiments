@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>O_o</title>
+        <script type="text/javascript" src="./autolayout.js"></script>
+        <style type="text/css">
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: helvetica;
+}
+
+.abs {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+}
+
+.block {
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+  background-color: #CCCCCC;
+  text-align: center;
+  color: #666666;
+}
+
+#newGame {
+    cursor: pointer;
+}
+
+        </style>
+    </head>
+    <body>
+        <div id="menu">
+            <div id="newGame">New game</div>
+            <div id="options">Options</div>
+            <div id="exit">Exit</div>
+        </div>
+        <div id="gameOver" hidden>GAME OVER</div>
+        <div id="game" hidden>
+            <div id="left">
+                <div id="field"></div>
+            </div>
+            <div id="right">
+                <div id="nextFigure">*next figure here*</div>
+                <div id="points"><b>Points:</b> -10 points</div>
+                <div id="clock"><b>Passed time:</b> *TBD*</div>
+            </div>
+        </div>
+        <script type="text/javascript" src="./main.js"></script>
+    </body>
+</html>
